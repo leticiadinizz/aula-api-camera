@@ -3,12 +3,14 @@ body {
     text-align: center;
     margin: 0;
     padding: 20px;
+    background-color: #98FB98; /* Verde claro */
+    color: #FF69B4; /* Rosa */
 }
 
 #video {
     width: 100%;
     max-width: 600px;
-    border: 2px solid #ccc;
+    border: 2px solid #FF69B4; /* Rosa */
 }
 
 button {
@@ -16,6 +18,10 @@ button {
     margin-top: 20px;
     font-size: 16px;
     cursor: pointer;
+    background-color: #FF69B4; /* Rosa */
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
 
 canvas {
@@ -24,17 +30,19 @@ canvas {
 
 #capturedImage {
     max-width: 100%;
-    border: 2px solid #ccc;
+    border: 2px solid #FF69B4; /* Rosa */
     margin-top: 20px;
 }
 
 .port {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .live {
     display: flex;
     flex-direction: column;
-
     margin-right: 50px;
+    align-items: center;
 }
